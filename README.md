@@ -1,2 +1,3 @@
-# C
-C Programmiing Language Practice 
+# C Programming Language
+
+
