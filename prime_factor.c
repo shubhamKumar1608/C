@@ -15,6 +15,6 @@ int main()
         }
         b++;
     }
-    printf("are the prime factor of given number %d ",c);
+    printf("are the prime factor of %d ",c);
     return 0;
 }
