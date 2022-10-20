@@ -5,7 +5,7 @@ int main()
     printf("Enter two number ");
     scanf("%d%d",&a,&b);
    while(c<=a&&c<=b)
-    {
+    { 
         if(a%c==0&&b%c==0)
         {
             d=d*c;
