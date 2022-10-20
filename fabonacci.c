@@ -1,14 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int a,b=0,c;
+    int a,b,c=-1,d=1,e;
     printf("Enter a number");
     scanf("%d",&a);
-    while(b<a)
+    for(b=0;b<a;b++)
     {
-        c=c+b;
-        printf("%d",c);
-        b++;
+        e=c+d;
+        printf("%d\n",e); 
+        c=d;
+        d=e;
     }
     printf("Fabonacci sereis upto %d",a);
     return 0;
